@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>BattleShip</title>
+  <meta name="description" content="An interactive getting started guide for Brackets.">
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+
+  <h1>BATTLESHIP</h1>
+
+  <div class="gridContainer">
+
+    <table id="gridAI" ondrop="drop(event)" ondragover="allowDrop(event)">
+    </table>
+
+    <table id="gridPlayer" ondrop="drop(event)" ondragover="allowDrop(event)">
+    </table>
+
+  </div>
+
+  <div class="ship-container">
+    <img id="logoFirefox" src="img/Firefox_Old_Logo.png" draggable="true" ondragstart="drag(event)" width="30" height="30">
+    <img id="discord" src="img/images.png" draggable="true" ondragstart="drag(event)" width="30" height="30">
+    <img id="discord2" src="img/images.png" draggable="true" ondragstart="drag(event)" width="60" height="30">
+
+
+  </div>
+
+  <script src='battleship.js'></script>
+
+</body>
+</html>
